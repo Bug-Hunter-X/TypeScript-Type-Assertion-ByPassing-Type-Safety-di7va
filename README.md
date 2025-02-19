@@ -1,0 +1,1 @@
+This repository demonstrates a common error in TypeScript where type assertions ('as any') can bypass type checking, leading to runtime errors.  The `bug.ts` file shows the problematic code, where a string is added to a number array using a type assertion.  The `bugSolution.ts` offers a safer approach using type guards or generics to prevent this issue.
